@@ -1,0 +1,26 @@
+DEPENDENCIES
+  rdzabbix
+    path: .
+    metadata: true
+
+GRAPH
+  ark (2.1.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (7.0.2)
+    compat_resource (>= 12.14)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chocolatey (1.0.3)
+    windows (>= 1.38)
+  compat_resource (12.16.2)
+  mingw (1.2.4)
+    compat_resource (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  rdzabbix (0.1.0)
+    ark (>= 0.0.0)
+    chocolatey (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (2.0.2)
